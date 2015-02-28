@@ -3,7 +3,7 @@ var app = angular.module('rtfmApp', ['ngRoute', 'firebase']);
 app.config(function($routeProvider){
 	$routeProvider
 		.when('/login', {
-			templateUrl: 'login/login.html',
+			templateUrl: 'js/login/login.html',
 			controller: 'login-control'
 		})
 		.when('/threads', {})
